@@ -11,5 +11,5 @@ created by this repository. Available scripts include:
 - [search](search) searches the LDAP tree specified by the input domain
 
 The connection credentials and the LDAP tree domain are defined and can be
-overriden using four environment variable: `LDAPHOST`, `LDAPPORT`, `LDAPPASS` 
-and `LDAPDOMAIN`.
+overriden using four environment variable: `LDAP_HOST`, `LDAP_PORT`,
+`LDAP_URL`, `LDAP_DOMAIN`, `LDAP_ADMIN_DN`, `LDAP_ADMIN_PASSWORD`.
