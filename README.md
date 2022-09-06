@@ -53,7 +53,7 @@ Then [build](##-Build), [install](##-Installation) and [use](##-Usage) as you no
 
 It is also possible to start up your own defined Apache DS *instance* with your own configuration for *partitions* and *services* - see
 [the ApacheDS documentation](https://directory.apache.org/apacheds/advanced-ug/2.1-config-description.html) for more details.
-Yu need to mount your `config.ldif` replacing the [default](https://github.com/openmicroscopy/apacheds-docker/blob/master/instance/config.ldif)
+You need to mount your `config.ldif` replacing the [default](https://github.com/openmicroscopy/apacheds-docker/blob/master/instance/config.ldif)
 and set the *APACHEDS_INSTANCE* environment variable properly.
 
 In the provided sample configuration, the instance is named *default*. Assuming your custom instance is called *yourinstance* the following command will do the trick:
