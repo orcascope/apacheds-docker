@@ -1,4 +1,4 @@
-dn: dc=openmicroscopy,dc=org
-dc: openmicroscopy
+dn: dc=blackstraw,dc=akshar,dc=ai
+dc: blackstraw
 objectclass: domain
 objectclass: top

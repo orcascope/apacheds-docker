@@ -54,7 +54,7 @@ RUN chown ${APACHEDS_USER}:${APACHEDS_GROUP} /run.sh \
 
 ADD instance/* ${APACHEDS_BOOTSTRAP}/conf/
 RUN sed -i "s/ads-contextentry:: [A-Za-z0-9\+\=\/]*/ads-contextentry:: $(base64 -w 0 $APACHEDS_BOOTSTRAP/conf/ads-contextentry.decoded)/g" /$APACHEDS_BOOTSTRAP/conf/config.ldif
-ADD ome.ldif ${APACHEDS_BOOTSTRAP}/
+# ADD ome.ldif ${APACHEDS_BOOTSTRAP}/
 RUN mkdir ${APACHEDS_BOOTSTRAP}/cache \
     && mkdir ${APACHEDS_BOOTSTRAP}/run \
     && mkdir ${APACHEDS_BOOTSTRAP}/log \
